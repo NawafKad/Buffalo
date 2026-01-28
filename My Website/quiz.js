@@ -18,7 +18,8 @@ function randomQuiz() {
     let premadeQuizes = 
     [
         ["McDonalds Menu Items (Individual Items)", ['mcdouble','doublehamburger','filetofish','mcchicken','bigmac', 'hamburger', 'cheeseburger', 'chickenmcnuggets', 'fries', 'eggmcmuffin', 'hashbrowns', 'quarterpounder']],
-        ["Fallout Factions", ["newcaliforniarepublic", "brotherhoodofsteel", "ceaserslegion","followersoftheapocalypse","theinstitute","therailroad","themastersarmy"]]
+        ["Fallout Factions", ["newcaliforniarepublic", "brotherhoodofsteel", "ceaserslegion","followersoftheapocalypse","theinstitute","therailroad","themastersarmy"]],
+        ["Nawaf's favorite games: ", ["terraria", "minecraft", "skyrim", "halo 3", "borderlands 2", "fallout new vegas", "rimworld", "team fortress 2", "faster than light", "red dead redemption", "deus ex", "grand theft auto: san andreas", "don't starve"]]
     ]
 
     var rand = randomInt((premadeQuizes.length))
