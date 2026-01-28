@@ -44,7 +44,7 @@ function createQuiz(ques, answers) {
 function guessAnswer(guess) {
     for(var i = 0; i < slots.length; i++) {
         let answer=slots[i][1]
-        if(answer.includes(guess) && guess.length >= answer.length/2) {
+        if(answer.includes(guess) && guess.length >= answer.length/5) {
             var spot= document.getElementById(slots[i][0])
             spot.textContent = slots[i][1]
             spot.style = 'background-color: green;'
